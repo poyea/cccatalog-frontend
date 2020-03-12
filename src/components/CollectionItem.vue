@@ -46,6 +46,14 @@ export default {
     margin: 0.5em;
     border: 1px solid $color-light-gray;
   }
+  
+  @media only screen and (max-width: 375px){
+    .provider-card {
+      max-width: 18em;
+      width: 100%;
+      margin: 0.5em 0em;
+    }
+  }
 
   .provider-name {
     font-weight: 800;
